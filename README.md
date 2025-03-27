@@ -72,3 +72,8 @@ fn Button2() -> impl IntoView {
     }
 }
 ```
+
+The transition in question:
+```html
+<p class="bg-white text-black dark:bg-gray-900 dark:text-white min-h-screen transition-all duration-1000">"Lorem ipsum"</p>
+```
